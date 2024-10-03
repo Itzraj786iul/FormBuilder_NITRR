@@ -1,4 +1,5 @@
-import React, { useState, useRef } from 'react';
+import Image from 'next/image';
+import React, { useState } from 'react';
 
 const ImagePreview = ({ onImageSelect }) => {
   const [selectedImage, setSelectedImage] = useState(null);
@@ -15,9 +16,6 @@ const ImagePreview = ({ onImageSelect }) => {
     }
   };
 
-
-
-
   return (
     <div className="flex flex-col">
       <input
@@ -27,10 +25,12 @@ const ImagePreview = ({ onImageSelect }) => {
         className="mb-4  text-black rounded-md"
       />
       {selectedImage && (
-        <img
+        <Image
           src={selectedImage}
           alt="Selected"
-          className="w-64 h-36 object-cover rounded m-4"
+          width={256}
+          height={144}
+          className="object-cover rounded m-4"
         />
       )}
     </div>
@@ -38,4 +38,3 @@ const ImagePreview = ({ onImageSelect }) => {
 };
 
 export default ImagePreview;
-export { ImagePreview };

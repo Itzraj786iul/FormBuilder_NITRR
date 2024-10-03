@@ -1,5 +1,6 @@
 "use client";
 import "../../app/globals.css";
+
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Sun, Moon } from 'lucide-react';
@@ -147,12 +148,13 @@ export default function SignIn() {
                         >
                             Sign In
                         </motion.button>
-                        <p>
-                            Don't have an account?{' '}
-                            <Link href="/signup/signup" className="font-semibold underline hover:text-blue-800">Sign Up</Link>
-                        </p>
-                        <p className="mt-2">OR</p>
-                        <p>If you have any problems, contact the technical team.</p>
+                        <p className={`mt-4 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
+                           Don&apos;t have an account?{' '}
+                         <Link href="/signup/signup" className="font-semibold underline hover:text-blue-800">Sign Up</Link>
+                      </p>
+
+                      <p className={`mt-2 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>OR</p>
+                      <p className={`${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>If you have any problems, contact the technical team.</p>
                     </div>
                 </form>
             </motion.div>

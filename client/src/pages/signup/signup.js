@@ -157,6 +157,7 @@ export default function SignUp() {
                                     Already have an account?{' '}
                                     <button type="button" className="font-semibold underline hover:text-blue-800">Sign In</button>
                                 </p>
+                                
                                 <p className={`mt-2 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>OR</p>
                                 <p className={`${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>If you have any problems, contact the technical team.</p>
                             </div>
