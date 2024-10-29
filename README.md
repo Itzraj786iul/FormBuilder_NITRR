@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # FormBuilder_NITRR
 
+=======
+>>>>>>> d431438 (add sign-up and sign-in functionality with server integration)
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -48,12 +51,19 @@ Copy code
 --npx tailwindcss init -p
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> d431438 (add sign-up and sign-in functionality with server integration)
 ##Install Material-UI (MUI) in your Next.js project:
 
 bash
 Copy code
+<<<<<<< HEAD
 --npm install @mui/material @emotion/react @emotion/styled
 
 ### Click Up link
 https://app.clickup.com/9016447460/v/l/8cpr4f4-396
+=======
+--npm install @mui/material @emotion/react @emotion/styled
+>>>>>>> d431438 (add sign-up and sign-in functionality with server integration)
